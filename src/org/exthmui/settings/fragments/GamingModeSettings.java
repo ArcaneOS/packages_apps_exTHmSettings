@@ -37,12 +37,9 @@ import java.util.ArrayList;
 import org.exthmui.settings.preferences.PackageListPreference;
 import org.exthmui.settings.preferences.SystemSettingSeekBarPreference;
 
-import lineageos.hardware.LineageHardwareManager;
-
 public class GamingModeSettings extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
     private boolean mPerformanceSupported;
-    private SwitchPreference mHardwareKeysDisable;
     private PackageListPreference mGamingPrefList;
     private SwitchPreference mUseMenuSwitch;
     private Preference mDanmaku;
@@ -56,12 +53,6 @@ public class GamingModeSettings extends SettingsPreferenceFragment implements On
         addPreferencesFromResource(R.xml.exthm_settings_gaming);
 
         final PreferenceScreen prefScreen = getPreferenceScreen();
-
-        mHardwareKeysDisable = findPreference(Settings.System.GAMING_MODE_DISABLE_HW_KEYS);
-        LineageHardwareManager mLineageHardware = LineageHardwareManager.getInstance(getActivity());
-        if (!mLineageHardware.isSupported(LineageHardwareManager.FEATURE_KEY_DISABLE)) {
-            prefScreen.removePreference(mHardwareKeysDisable);
-        }
 
         mGamingPrefList = (PackageListPreference) findPreference("gaming_mode_app_list");
         mGamingPrefList.setRemovedListKey(Settings.System.GAMING_MODE_REMOVED_APP_LIST);

@@ -17,8 +17,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="exthmui_settings_title">Misc</string>
-    <string name="exthmui_settings_summary">misc stuffs</string>
+    <string name="exthmui_settings_title">Tresdin\'s Lair</string>
+    <string name="exthmui_settings_summary">Whatever they brought, it won\'t be enough</string>
 
     <!-- Categories -->
     <string name="gaming_title">Gaming mode</string>

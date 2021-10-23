@@ -20,12 +20,12 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/gaming_mode_notification_danmaku_title" >
 
-    <org.exthmui.settings.preferences.SystemSettingSwitchPreference
+     <com.android.settings.custom.preference.SystemSettingSwitchPreference
         android:key="gaming_mode_show_danmaku"
         android:title="@string/gaming_mode_show_danmaku_title"
         android:defaultValue="true" />
 
-    <org.exthmui.settings.preferences.SystemSettingSwitchPreference
+     <com.android.settings.custom.preference.SystemSettingSwitchPreference
         android:key="gaming_mode_danmaku_dynamic_notification_filter"
         android:title="@string/gaming_mode_danmaku_dynamic_notification_filter_title"
         android:summary="@string/gaming_mode_danmaku_dynamic_notification_filter_summary"
