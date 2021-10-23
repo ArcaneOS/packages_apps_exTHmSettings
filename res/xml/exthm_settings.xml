@@ -17,11 +17,34 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/exthmui_settings_title" >
 
-        <!-- Gaming mode -->
+       <!-- Gaming mode -->
         <Preference
             android:key="gaming_category"
             android:title="@string/gaming_title"
-            android:fragment="org.exthmui.settings.fragments.GamingModeSettings"
-            android:icon="@drawable/ic_settings_gaming"/>
+            android:summary="@string/gaming_mode_pref_summary"
+            settings:iconSpaceReserved="false"     
+            android:fragment="org.exthmui.settings.fragments.GamingModeSettings" />
 
+    <!-- Statusbar Settings -->
+    <Preference
+        android:key="statusbar_settings"
+        android:title="@string/status_bar_title"
+        android:summary="@string/status_bar_summary"
+        settings:iconSpaceReserved="false"         
+        android:fragment="com.android.settings.custom.statusbar.StatusBarSettings" />
+
+    <!-- Button Settings -->
+    <Preference
+        android:key="button_settings"
+        android:title="@string/button_pref_title"
+        android:summary="@string/button_pref_summary"
+        settings:iconSpaceReserved="false"
+        android:fragment="com.android.settings.custom.buttons.ButtonSettings"/>
+        
+    <Preference
+        android:key="gesture_settings"
+        android:title="@string/gesture_preference_title"
+        settings:iconSpaceReserved="false"
+        android:fragment="com.android.settings.gestures.GestureSettings"
+        settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController"/>
 </PreferenceScreen>
