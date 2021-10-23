@@ -17,8 +17,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="exthmui_settings_title">exTHmUI Settings</string>
-    <string name="exthmui_settings_summary">Customize your exTHmUI</string>
+    <string name="exthmui_settings_title">Misc</string>
+    <string name="exthmui_settings_summary">misc stuffs</string>
 
     <!-- Categories -->
     <string name="gaming_title">Gaming mode</string>
