@@ -23,11 +23,13 @@
      <com.android.settings.custom.preference.SystemSettingSwitchPreference
         android:key="gaming_mode_show_danmaku"
         android:title="@string/gaming_mode_show_danmaku_title"
+        settings:iconSpaceReserved="false"
         android:defaultValue="true" />
 
      <com.android.settings.custom.preference.SystemSettingSwitchPreference
         android:key="gaming_mode_danmaku_dynamic_notification_filter"
         android:title="@string/gaming_mode_danmaku_dynamic_notification_filter_title"
+        settings:iconSpaceReserved="false"
         android:summary="@string/gaming_mode_danmaku_dynamic_notification_filter_summary"
         android:defaultValue="true"
         android:dependency="gaming_mode_show_danmaku" />
@@ -35,6 +37,7 @@
     <org.exthmui.settings.preferences.SystemSettingSeekBarPreference
         android:key="gaming_mode_danmaku_size_horizontal"
         android:title="@string/gaming_mode_danmaku_size_horizontal_title"
+        settings:iconSpaceReserved="false"
         android:defaultValue="36"
         android:max="64"
         settings:min="12"
@@ -44,6 +47,7 @@
     <org.exthmui.settings.preferences.SystemSettingSeekBarPreference
         android:key="gaming_mode_danmaku_size_vertical"
         android:title="@string/gaming_mode_danmaku_size_vertical_title"
+        settings:iconSpaceReserved="false"
         android:defaultValue="36"
         android:max="64"
         settings:min="12"
@@ -53,6 +57,7 @@
     <org.exthmui.settings.preferences.SystemSettingSeekBarPreference
         android:key="gaming_mode_danmaku_speed_horizontal"
         android:title="@string/gaming_mode_danmaku_speed_horizontal_title"
+        settings:iconSpaceReserved="false"
         android:defaultValue="300"
         android:max="1000"
         settings:min="100"
@@ -62,6 +67,7 @@
     <org.exthmui.settings.preferences.SystemSettingSeekBarPreference
         android:key="gaming_mode_danmaku_speed_vertical"
         android:title="@string/gaming_mode_danmaku_speed_vertical_title"
+        settings:iconSpaceReserved="false"
         android:defaultValue="300"
         android:max="1000"
         settings:min="100"

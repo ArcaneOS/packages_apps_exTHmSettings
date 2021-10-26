@@ -57,9 +57,9 @@
     <string name="gaming_mode_enabled_title">Enable gaming mode</string>
     <string name="gaming_mode_disable_auto_brightness_title">Disable automatic brightness</string>
     <string name="gaming_mode_disable_auto_brightness_summary">Disable auto brightness when entering game mode</string>
-    <string name="gaming_mode_notification_danmaku_title">Notification Danmaku</string>
+    <string name="gaming_mode_notification_danmaku_title">Danmaku</string>
     <string name="gaming_mode_notification_danmaku_summary">Display the notification content in the form of danmaku in the game</string>
-    <string name="gaming_mode_quick_start_apps_title">Quick Start Apps</string>
+    <string name="gaming_mode_quick_start_apps_title">Quick Apps</string>
     <string name="gaming_mode_quick_start_apps_summary">Choose the application that you want to launch with a floating ball</string>
 
     <string name="gaming_mode_performance">Performance</string>
